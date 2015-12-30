@@ -1,0 +1,83 @@
+
+dy {
+    height: 100%;
+    margin: 0;
+}
+
+.sidebar 
+{
+   float: left; 
+    width: 10%;
+    height: 100%;
+    background: black;
+    border-radius:10px; 
+}
+
+h1
+{
+	color:#FF9900;
+	text-align: center;
+	font-family:'20_dbregular', Arial;
+}
+h2
+{
+text-align: center;
+text-decoration: underline;
+color: #FF9900;
+}
+.citation
+{
+text-align:center
+}
+
+.photo
+{
+position:absolute;
+top:2%;
+right:2%;
+border: 4px black solid;
+box-shadow: 5px 5px 2px grey
+}
+
+
+
+*
+{
+background-image:url("fond.jpg");
+background-repeat: no repeat;
+background-attachment: fixed;
+}
+
+
+#bloc1
+{
+margin-left:5%;
+display:inline-block;
+width: 28%;
+vertical-align:top;
+}
+
+#bloc2
+{
+display: inline-block;
+width: 28%;
+vertical-align:top;
+}
+
+#bloc3
+{
+display: inline-block;
+width: 28%;
+vertical-align: top;
+}
+
+nt-face {
+    font-family: '20_dbregular';
+    src: url('20db-webfont.eot');
+    src: url('20db-webfont.eot?#iefix') format('embedded-opentype'),
+         url('20db-webfont.woff') format('woff'),
+         url('20db-webfont.ttf') format('truetype'),
+         url('20db-webfont.svg#20_dbregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
